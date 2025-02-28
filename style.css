@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+nav h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#home {
+    background-image: url('images/PASAY.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+html {
+    scroll-padding-top: 60px;
+}
